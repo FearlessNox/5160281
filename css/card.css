@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.card-flex {
+    display: flex;
+    max-width: 100em;
+    flex-basis: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 30%;
+    height: min-content;
+    background-color: rgb(95, 3, 3);
+    padding: 15px;    
+    text-align: center;
+    border-radius: 20px;
+}
+
+.team{
+    background-color: rgba(243, 240, 65, 0.329);
+    color: white;
+    padding: 15px;
+    border-radius: 20px 15px;
+}
+
+.pilot {
+    background-color: rgba(109, 109, 109, 0.315);
+    color: white;
+    padding: 15px;
+    border-radius: 20px 15px; 
+}
+
+.photo{
+    max-width: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 10px;
+}
